@@ -1,0 +1,59 @@
+.job-list-item-card {
+  list-style-type: none;
+  height: 40vh;
+  width: 100vh;
+  background-color: #272727;
+  margin-bottom: 14px;
+  padding: 15px;
+}
+
+@media (max-width: 768px) {
+  .job-list-item-card {
+    height: 30vh;
+    width: 80vh;
+    padding: 5px;
+  }
+}
+
+.jobs-list-title {
+  color: #f8fafc;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.jobs-list-rating {
+  color: #f8fafc;
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 5px;
+}
+.jobs-list-package {
+  color: #f8fafc;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.company-logo {
+  height: 50px;
+  width: 50px;
+}
+
+.company-logo-title-card {
+  display: flex;
+}
+
+.location-type-package-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.location-type-card {
+  display: flex;
+}
+.star-rating-card {
+  display: flex;
+
+  align-items: center;
+  margin-right: 16px;
+}

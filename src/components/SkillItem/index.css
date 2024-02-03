@@ -1,0 +1,14 @@
+.skill-image {
+  height: 30px;
+  width: 30px;
+}
+
+.skill-list-item {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 40px;
+  width: 200px;
+  margin-bottom: 15px;
+}

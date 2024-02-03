@@ -1,0 +1,84 @@
+.job-item-main-container {
+  background-color: #000000;
+}
+@media (min-width: 769px) {
+  .job-item-main-container {
+    height: 160vh;
+    width: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+@media (max-width: 768px) {
+  .job-item-main-container {
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+.job-item-details-container {
+  background-color: #000000;
+  height: 160vh;
+  width: 150vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.job-item-details-card {
+  background-color: #272727;
+  height: 95vh;
+  width: 140vh;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.star {
+  color: #fbbf24;
+}
+
+.location-icon {
+  color: #ffffff;
+}
+.website-visit {
+  color: #4f46e5;
+  margin-left: 5px;
+}
+
+.visit-button {
+  background-color: #272727;
+  color: #4f46e5;
+  font-size: 15px;
+  border: none;
+}
+
+.un-ordered-skills {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.life-at-company-image {
+  height: 200px;
+  width: 240px;
+  margin-left: 10px;
+}
+.life-at-company-card {
+  display: flex;
+}
+
+.life-at-company-description-card {
+  color: #f8fafc;
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 5px;
+  height: 500px;
+  width: 400px;
+}

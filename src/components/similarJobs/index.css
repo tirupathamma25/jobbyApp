@@ -1,0 +1,8 @@
+.similar-list-item {
+  list-style-type: none;
+  height: 400px;
+  width: 250px;
+  background-color: #272727;
+  margin-right: 15px;
+  padding: 15px;
+}
